@@ -6,7 +6,9 @@ rgba(52, 107, 181, 0.83) - hoover, styling
 */
 
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box;
+	margin: 0;
+}
 
 html {
 	font-family: 'Montserrat', sans-serif;
@@ -14,7 +16,7 @@ html {
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 	scroll-behavior: smooth;
-	color: #2e2e2e;
+	color: #4e4e4e;
 }
 
 *::selection { background-color: #ecefef; }
@@ -70,24 +72,7 @@ section { background-color: #ffffff; }
 }
 
 
-.aboutMe_wrap {
-	 display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 131%;
-    flex-direction: column;
-}
 
-
-
-#aboutMe {
-	font-weight: 300;
-	font-size: 220%;
-	letter-spacing: 6px;
-	text-align: center;
-
-}
 
 
 /*---nav---*/
@@ -195,26 +180,51 @@ li:last-child {
 
 }
 
+
+
 /*ABOUT ME*/
+
+
+.aboutMe_wrap {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 131%;
+    flex-direction: column;
+}
+
+
+
+#aboutMe {
+	font-weight: 300;
+	font-size: 220%;
+	letter-spacing: 6px;
+	text-align: center;
+
+}
+
 
 
 .title {
 	margin: 40px 0;
 	padding: 5px;
-	font-weight: 400;
+	font-weight: 300;
+	font-size: 230%;
 	word-spacing: 1px;
 	letter-spacing: 3px;
 	text-align: center;
-	color: rgba(52, 107, 181, 0.83)	
+	color: rgba(37, 148, 181, 0.81);
+	
 }
 
-	
 
 #meSection {
 	background-position: bottom;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.23)
 }
 
 #me {
@@ -237,9 +247,20 @@ li:last-child {
 	margin: 30px 0px 50px 0px;
 	padding: 4%;
 	text-align: justify;
-	border: 1.2px dashed;
+	border: 1.2px dotted;
 	border-color: rgba(52, 87, 181, 0.41);
 	height: auto;
+	border-radius: 20px;
+}
+
+.simpleText-white {
+	margin: 30px 0px 50px 0px;
+	padding: 4%;
+	text-align: justify;
+	border: dotted 1px;
+	height: auto;
+	border-radius: 20px;
+	color: #a2a2a2;
 }
 
 .rowMy {
@@ -280,7 +301,39 @@ li:last-child {
 /*PROJECTS*/
 
 #projects {
-	background-image: url(/img/n-n-BtbjCFUvBXs-unsplash.jpg);
+	background-image: url("/img/dot-grid.png");
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
+}
+
+.mockup {
+	width: 90%;
+
+}
+
+.text-background {
+	background-color: rgba(229, 229, 229, 0.97);
+	border-style: none;
+	border-radius: 20px;
+}
+
+
+/*technologies*/
+
+.technologies-wrap {
+	text-align: center;
+	font-size: 400%;
+	display: flex;
+	letter-spacing: 40px;
+	justify-content: center;
+}
+
+.simpleText-tech {
+	width: 80%
+}
+
+.p-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
