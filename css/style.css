@@ -25,7 +25,7 @@ html {
 /*HEADER*/
 
 
-.headerMy {
+.header-my {
 	background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.78), rgba(255, 255, 255, 0.74)), url("/img/shapelined-_JBKdviweXI-unsplash.jpg");
 	background-position: center;
 	background-attachment: fixed;
@@ -53,7 +53,7 @@ section { background-color: #ffffff; }
 
 /*---logo---*/
 
-.logoMy {
+.logo-my {
 	margin-top: 20px; 
 	width: 100px;
 	height: auto;
@@ -82,7 +82,7 @@ nav {
 	overflow-x: hidden;
 }
 
-.nav-wrapperMy {
+.nav-wrapper-my {
 	width: 100%;
 	height: 65px;
 	display: flex;
@@ -96,11 +96,11 @@ nav {
 
 
 
-.menuMy {
+.menu-my {
 	display: flex;	
 }
 
-.menuMy li {
+.menu-my li {
 	list-style: none;
 	margin-left: 20px;
 	margin-right: 40px;
@@ -114,7 +114,7 @@ li:last-child {
 }
 
 
-.menuMy a {
+.menu-my a {
 	text-decoration: none;
 	color: #2e2e2e;
 	font-size: 80%;
@@ -123,7 +123,7 @@ li:last-child {
 	transition-delay: 0.3s;
 }
 
-.menuMy a:hover {
+.menu-my a:hover {
 	color: rgba(52, 107, 181, 0.83) ;
 }
 
@@ -207,7 +207,7 @@ li:last-child {
 
 
 .title {
-	margin: 40px 0;
+	margin: 80px 0;
 	padding: 5px;
 	font-weight: 300;
 	font-size: 230%;
@@ -337,3 +337,58 @@ li:last-child {
 	align-items: center;
 	justify-content: center;
 }
+
+/*Contact form*/
+
+#contact-form{
+	margin: 100px 0px;
+	background-color: #f8f8f8;
+}
+
+.form {
+	margin: 0px;
+	padding: 2%;
+	text-align: justify;
+	border: 1.2px dotted;
+	border-color: rgba(52, 87, 181, 0.41);
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+	border-radius: 0px;
+}
+
+
+.form-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+fieldset input, fieldset textarea, fieldset button {
+	border: 1px solid rgba(55, 128, 191, 0.51);
+	padding: 2%;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-size: 80%;
+}
+
+input, textarea {
+		background-color: #ffffff;
+
+}
+
+textarea {
+		height: 200px
+
+}
+
+#btn-wrap {
+	display: flex;
+	justify-content: center;
+	
+}
+

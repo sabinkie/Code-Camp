@@ -19,7 +19,7 @@ header {
 
 	}
 	
-.logoMy {
+.logo-my {
 	width: 100px;
 	height: 100px;;
 	
@@ -44,17 +44,20 @@ header {
 	
 }
 	
+li {
+		display: none
+	}
 	
-/*ABOUT ME*/
+	
 
 
 
 
 }
 	
-/* Small devices (portrait tablets and large phones, up to 600px) */
+/* Small devices (portrait tablets and large phones, up to 654px) */
 
-@media (min-width: 361px) and (max-width: 600px) {
+@media (min-width: 361px) and (max-width: 654px) {
 
 
 html {
@@ -71,7 +74,7 @@ header {
 
 	}
 	
-.logoMy {
+.logo-my {
 	width: 100px;
 	height: 100px;
 	
@@ -94,22 +97,21 @@ header {
 	font-size: 90%;
 	letter-spacing: 1px;
 	
-	
-}
-	
-	
-	
-/*ABOUT ME*/
-	
-
-
 	}
 
+	
+	li {
+		 display: none;
+	}
+		
+
+	
+}
   
 	
 /* Medium devices (landscape tablets, up to ) */
 
-@media (min-width: 601px) and (max-width: 841px) {
+@media (min-width: 655px) and (max-width: 841px) {
 	
 	
 html {
@@ -126,7 +128,7 @@ header {
 
 	}
 	
-.logoMy {
+.logo-my {
 	height: auto;
 	
 }
@@ -148,7 +150,7 @@ header {
 }
 	
 	
-/*ABOUT ME*/
+
 
 
 		
